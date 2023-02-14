@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn Java Script</title>
+    <link rel="stylesheet" href="/assets/css/LearnJS.css">
+    <script src="myScript.js"></script>
+</head>
+<body>
+
+    <h1>LEARN JAVA SCRIPT</h1>
+    <h2 id="demo">Hello! Let try!</h2>
+    
+    <div>
+        <button onclick="this.innerHTML = Date()">Time</button>
+        <button type="button" onclick="document.getElementById('demo').innerHTML = 'Hello!'">Text</button> 
+        <button type="button" onclick="document.getElementById('demo').style.fontSize = '30px'">Big font</button>
+        <button type="button" onclick="document.getElementById('demo').style.fontSize = 'medium'">Medium font</button>
+        <button type="button" onclick="document.getElementById('demo').style.display='none'">Hide</button>
+        <button type="button" onclick="document.getElementById('demo').style.display='block'">Appear</button>
+        <button type="button" onclick="myFunction()">Script in body</button>
+        <button type="button" onclick="myFunction2()">Script in head</button>
+    </div>
+    <div><button type="button" onclick="document.write('Game over')">Don't Click</button></div>
+    <div><button onclick="window.print()">Print this page</button></div>
+    <div id="demo2"></div>
+    <pre class="pre">
+        Cho:
+        x = 5;
+        y = 2;
+        z = x^y;
+        <div id="demo3">z = ?</div>
+    </pre>
+    <button type="button" onclick="myFunction3()">Results</button>
+
+    <div id="demo4"></div>
+
+    <div id="demo5"></div>
+
+    <div id="demo6"></div>
+
+    <div id="demo7">
+        <script>
+            document.write(description);
+        </script>
+    </div>
+  
+<script>
+/* // Change paragraph:
+// Toan tu ghep noi dung thanh Ho va ten */
+    document.getElementById("demo2").innerHTML = 'My first JavaScript';
+    document.getElementById("demo4").innerHTML = person.fullName();
+    document.getElementById("demo5").innerHTML = cars;        
+    document.getElementById("demo6").innerHTML = text;
+</script>
+</body>
+</html>
